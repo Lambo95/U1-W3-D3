@@ -1,11 +1,19 @@
 function changeBackGround() {
   let change = prompt("Vuoi cambiare sfondo? \n Rispondi con S o N !");
   if (change === "S" || change === "s") {
-    document.getElementById("box").style.backgroundImage = "url(./img/sfondo.jpg)";
+    document.getElementById("box").style.backgroundImage = "url(./img/750x750bb.jpeg)";
     document.getElementById("box").style.backgroundRepeat = "no-repeat";
     document.getElementById("box").style.backgroundSize = "cover";
     document.getElementById("box").style.backgroundPosition = "center";
-    document.getElementById("main-title").style.color = "rgb(89, 66, 239)";
+    //document.getElementById("main-title").style.color = "rgb(89, 66, 239)";
+  }
+}
+
+function returnBackGround() {
+  let change = prompt("Vuoi cambiare sfondo? \n Rispondi con S o N !");
+  if (change === "S" || change === "s") {
+    document.getElementById("box").style.backgroundImage = "url(https://genoacfc.it/wp-content/uploads/2020/01/placeholder-3.jpg?id=36356)";
+    document.getElementById("box").style.backgroundRepeat = "repeat";
   }
 }
 
