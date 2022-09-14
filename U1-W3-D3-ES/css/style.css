@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#box {
+  padding: 15px;
+  background: url(https://genoacfc.it/wp-content/uploads/2020/01/placeholder-3.jpg?id=36356);
+  background-repeat: repeat;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  color: black;
+  margin: 15px 0 5px 0;
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: center;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+.container-button {
+  display: flex;
+  justify-content: space-evenly;
+}

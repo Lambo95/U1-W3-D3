@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Es D3 </title>
+</head>
+
+<body>
+
+    <div id="box">
+        <div class="container-button">
+            <button onclick="changeBackGround()"><sup>VUOI CAMBIARE SFONDO?</sup></button>
+            <button onclick="returnBackGround()"><sup>VUOI TORNARE ALLO SFONDO PRECEDENTE?</sup></button>
+        </div>
+        <header id="main-title">
+            <h1 id="title">Genoa Cricket and Football Club</h1>
+            <p>THE OLDEST ITALIAN FOOTBALL CLUB</p>
+        </header>
+        <main id="main">
+            <figure id="img-div">
+                <img id="image" src="https://genoacfc.it/wp-content/uploads/2018/02/Banner-STORIA-e-PALMARES_eng.jpg"
+                    alt="7 September 1893 - THE OLDEST ITALIAN FOOTBALL CLUB">
+                <figcaption id="img-caption">
+                    <p>James Richardson Spensey, one of the main promoters of the football, while smoking the pipe.
+                        Alongside the Genoa coat of arms and date of birth
+                    </p>
+                </figcaption>
+            </figure>
+
+            <section id="tribute-info">
+                <h3 id="headline">Here's a time line of Genoa Cricket and Football Club:</h3>
+                <h4>
+                    Founded in 1893, it is the longest-running of the Italian clubs still in business as well as one of
+                    the
+                    most noble, boasting in its roll of honor 9 league titles won between 1898 - the first ever in the
+                    history of Italian football - and 1923-1924: this series of successes earned Genoa the definition of
+                    the
+                    first great national football, a role exercised until the pre-war period, and ensured that for its
+                    first
+                    sixty years it established itself as the most successful Italian team, alone or shared, before being
+                    overtaken by Juventus at the end of the second post-war period.
+                </h4>
+                <ul>
+                    <li><strong>September 7, 1893 </strong> - Foundation of the Genoa Cricket and Athletic Club</li>
+                    <li>
+                        <strong>1898</strong> - Champion of Italy (1st title)
+                    </li>
+                    <li>
+                        <strong>1899</strong> - Champion of Italy (2nd title)
+                    </li>
+                    <li>
+                        <strong>1900</strong> - Champion of Italy (3rd title)
+                    </li>
+                    <li>
+                        <strong>1902</strong> - Champion of Italy (4th title).
+                    </li>
+                    <li>
+                        <strong>1903</strong> - Champion of Italy (5th title).
+                    </li>
+                    <li>
+                        <strong>1904</strong> - Champion of Italy (6th title).
+                    </li>
+                    <li>
+                        <strong>1915</strong> - Champion of Italy (7th title).
+                    </li>
+                    <li>
+                        <strong>1923</strong> - Champion of Italy (8th title).
+                    </li>
+                    <li>
+                        <strong>1924</strong> - Champion of Italy (9th title).
+                    </li>
+                    <li>
+                        <strong>1937</strong> - Winner of the Italian Cup (1st title).
+                    </li>
+                    <li>
+                        <strong>1962</strong> - Cup of the Alps (1st title).
+                    </li>
+                    <li>
+                        <strong>1964</strong> - Cup of the Alps (2nd title)
+                    </li>
+                </ul>
+
+                <p>
+                    "I can't write about Genoa because I'm too involved. I don't do the hymn because I don't like
+                    marches
+                    and because nothing can overcome the choirs of the Northern Steps. If anything at Genoa I would have
+                    written a love song, but I don't do it because to make songs you have to keep a certain detachment
+                    from
+                    what you write, instead Genoa involves me too much."
+                </p>
+                <cite>-- <a href="https://it.wikiquote.org/wiki/Fabrizio_De_Andr%C3%A9" target="_blank">Fabrizio De
+                        André</a></cite>
+
+                <h3>
+                    If you have time, you should read more about Genoa Football Club on his
+                    <a id="tribute-link" href="https://genoacfc.it/en/club/history/" target="_blank">History Genoa
+                        CFC</a>
+                    and this
+                    <a id="tribute-link" href="https://it.wikipedia.org/wiki/Genoa_Cricket_and_Football_Club"
+                        target="_blank">Wikipedia entry</a>
+                </h3>
+            </section>
+        </main>
+        <aside>
+            <div id="container">
+                <div class="card-container">
+                    <button onclick="differenceAge()">
+                        <h3>Calcola la differenza di età tra te ed il Genoa! </h3>
+                    </button>
+                    <div class="align" id="visualizza-differenza"></div>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
